@@ -16,7 +16,7 @@ Output data format:
 
 Examples:
 assert backward_string("val") == "lav"
-assert backward_string("") == ""
+assert backward_string("12") == "21"
 assert backward_string("ohho") == "ohho"
 assert backward_string("123456789") == "987654321"
 2. Just Fizz!
