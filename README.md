@@ -35,6 +35,7 @@ assert checkio(15) == "Fizz"
 assert checkio(6) == "Fizz"
 assert checkio(10) == "10"
 assert checkio(7) == "7"
+
 3. First Word (simplified)
 Description:
 Given a text and you need to find its first word. The text contains English letters and spaces. There are no spaces at the beginning and at the end.
@@ -49,7 +50,7 @@ Examples:
 
 assert first_word("Hello world") == "Hello"
 assert first_word("a word") == "a"
-assert first_word("greeting from CheckiO Planet") == "greeting"
+assert first_word("greeting from Ukraine") == "greeting"
 assert first_word("hi") == "hi"
 
 4. Rectangle Perimeter
@@ -63,7 +64,7 @@ Output format:
 
 An integer (perimeter).
 Examples:
-
+print(rectangle_perimeter(3, 2))  # 10
 assert rectangle_perimeter(2, 4) == 12
 assert rectangle_perimeter(3, 5) == 16
 assert rectangle_perimeter(10, 20) == 60
